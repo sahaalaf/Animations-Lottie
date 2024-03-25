@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#005385">
+
+    <ImageView
+        android:id="@+id/blender"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="108dp"
+        android:src="@drawable/blender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/zoomIn"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF7021"
+        android:fontFamily="@font/merriweathersans_medium"
+        android:text="ZOOM IN"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.688" />
+
+    <Button
+        android:id="@+id/zoomOut"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF7021"
+        android:fontFamily="@font/merriweathersans_medium"
+        android:text="ZOOM OUT"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.688" />
+
+    <Button
+        android:id="@+id/fade"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF7021"
+        android:fontFamily="@font/merriweathersans_medium"
+        android:text="FADE"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81" />
+
+    <Button
+        android:id="@+id/rotate"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF7021"
+        android:fontFamily="@font/merriweathersans_medium"
+        android:text="ROATTE"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81" />
+
+    <Button
+        android:id="@+id/lottie"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#FF7021"
+        android:fontFamily="@font/merriweathersans_medium"
+        android:text="LOTTIE"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
